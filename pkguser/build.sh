@@ -19,7 +19,7 @@ mapfile -t pkgkeys < "gpgkey.lst"
 mapfile -t pkgnames < "package.lst"
 
 for pkgkey in "${pkgkeys[@]}"; do
-    gpg --recv-keys --keyserver "hkps://keys.openpgp.org" "${pkgkey}"
+    gpg --keyserver "hkps://keys.openpgp.org" --recv-keys "${pkgkey}"
 done
 
 mkdir "${TRAVIS_TAG}"
