@@ -1,4 +1,4 @@
-# aurci [![Build Status](https://travis-ci.com/xeladejo/aurci.svg?branch=main)](https://travis-ci.com/xeladejo/aurci)
+# aurci [![Build Status](https://travis-ci.com/xeladejo/aurci.svg?branch=main)](https://app.travis-ci.com/xeladejo/aurci)
 
 Use [Travis CI] for building and packaging a few packages from [AUR] and deploy them to [GitHub Releases] so it can be used
 as repository in [Arch Linux].
